@@ -491,6 +491,7 @@ a {
 
 .features .body {
     display: flex;
+    justify-content: space-between;
 }
 
 .features .images {
@@ -515,7 +516,6 @@ a {
     justify-content: center;
     align-items: flex-start;
     width: 41%;
-    margin-left: auto;
 }
 
 .features .desc {
@@ -531,4 +531,23 @@ a {
     min-width: 137px;
     background: var(--primary-color);
     color: #fff;
+}
+
+/* Features 2 */
+.features-2nd {
+    margin-top: 70px;
+}
+
+.features-2nd .body {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.features-2nd .content {
+    width: 49%;
+}
+
+.features-2nd .images img {
+    width: 470px;
+    height: 440px;
 }
