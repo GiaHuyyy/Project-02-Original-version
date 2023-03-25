@@ -482,3 +482,53 @@ a {
     line-height: 1.54;
     color: #ffffff;
 }
+
+/* Features */
+.features {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.features .body {
+    display: flex;
+}
+
+.features .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.features img.lower {
+    margin-top: 34px;
+}
+
+.features .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 41%;
+    margin-left: auto;
+}
+
+.features .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.features .cta-btn {
+    margin-top: 32px;
+    min-width: 137px;
+    background: var(--primary-color);
+    color: #fff;
+}
